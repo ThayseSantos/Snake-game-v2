@@ -1,0 +1,52 @@
+body
+{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #313842;
+    color:#84ab60;
+    font-family: 'Monoton', cursive;
+    color: #8859B5;
+
+}
+
+#cobra
+{
+    margin: -10px -1px -10px -1000px; /*top direita baixo esquerda*/
+    position : absolute;
+}
+
+#key
+{   
+    
+    margin: -10px -2000px -20px -1000px; /*top direita baixo esquerda*/
+    position : absolute;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #9acc85;
+	background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+	background-color:#74ad5a;
+	border:1px solid #3b6e22;
+	display:inline-block;
+	cursor:pointer;
+	color:#8859B5;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:10px 20px;
+    text-decoration:none;
+    font-family: 'Monoton', cursive;
+
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	background-color:#68a54b;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
